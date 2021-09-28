@@ -1,0 +1,19 @@
+version: "3.4"
+services:
+  rpc:
+    build:
+      context: ./forwarder
+    environment:
+      - "ETH_RPC=http://erigon.dappnode:8545"
+    volumes:
+      - "state_data:/home/user/state"
+      - "chain_data:/home/user/.arbitrum"
+    ports:
+      - "1235"
+      - "8547"
+      - "8548"
+      - "6070"
+    image: "rpc.arb-node.public.dappnode.eth:0.1.0"
+volumes:
+  chain_data: {}
+  state_data: {}

@@ -1,0 +1,12 @@
+[
+    {
+        "labels": {
+            "package": "rpc.arb-node.public.dappnode.eth",
+            "service": "rpc.arb-node.public.dappnode",
+            "__metrics_path__": "/debug/metrics/prometheus"
+        },
+        "targets": [
+            "rpc.arb-node.public.dappnode:6070"
+        ]
+    }
+]

@@ -1,0 +1,34 @@
+{
+  "name": "arb-node.public.dappnode.eth",
+  "version": "0.1.0",
+  "upstreamVersion": "master",
+  "upstreamRepo": "OffchainLabs/arbitrum",
+  "upstreamArg": "UPSTREAM_VERSION",
+  "description": "Arbitrum Forwarder Node",
+  "type": "service",
+  "author": "androolloyd <opensource@andrewredden.com> (https://github.com/androolloyd)",
+  "contributors": [
+    "OffchainLabs <https://github.com/OffchainLabs/arbitrum>"
+  ],
+  "categories": [
+    "Developer tools",
+    "Blockchain"
+  ],
+  "keywords": [
+    "arbitrum", "l2", "layer2", "layer 2"
+  ],
+  "globalEnvs": {
+    "all": true
+  },
+  "backup": [
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/androolloyd/dappnode-arbitrum"
+  },
+  "links": {
+    "homepage": "https://github.com/OffchainLabs/arbitrum",
+    "gateway": "http://rpc.arb-node.public.dappnode:8547"
+  },
+  "license": "GPL v3"
+}
